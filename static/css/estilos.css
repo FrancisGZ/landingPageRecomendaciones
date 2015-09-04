@@ -1,7 +1,6 @@
 /*utilidades*/
 .u-title{
 	color: #00DBFF;
-	border-bottom: 2px dashed #00DBFF;
 	font-weight: normal; /*es lo mismo que 400*/
 	padding-bottom: .5em;
 	text-align: center;
@@ -10,13 +9,12 @@
 /*Menu*/
 
 .MainMenu{
-	background: #1E1E1E;
-	text-align: center;
-	height: 3.75em; /*60/16 */
-	position: fixed; /*para que el menu se que de  fijo*/
+	
+	position: fixed; 
 	left: 0; /*para poner todo el ancho al menu*/
 	right: 0;
 	top: 0;/*posisionar el menu hasta arriba*/
+	text-align: center;
 }
 
 .MainMenu-list{
@@ -51,13 +49,21 @@
 
 .Header-imageContainer{
 	margin: 0;
+
 }
 
 .Header-image{
 	border:5px solid black ;/*tamaño-tipo-color*/
 	border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+	width: 100px; height: 100px;
 }
 
+
+.Header-image2{
+	border:5px solid black ;/*tamaño-tipo-color*/
+	border-radius: 80% ;/*los valores del border que recibe son los mismo que loas magenes*/
+	width: 100px; height: 100px;
+}
 
 .Header-name,
 .Header-link{
@@ -93,8 +99,26 @@
 	padding: .5em 1em;
 	border-radius: 2em;
 	margin-right: .5em;
+	
+
 }
 
+
+.Profile-link2{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 50%;
+	margin-right: .5em;
+	
+
+}
+
+
+.Profile-redes{
+	margin-top: 1em;
+}
 
 /*work*/
 .Work{
@@ -119,6 +143,30 @@
 	color: #515151;
 	font-style: italic;
 }
+
+
+
+/*Seccion envios*/
+
+.Envios-item {
+	display: inline-flex;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+	width: 250px;
+
+
+}
+
+	.Envios-titulo{
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	.Envios-descripcion{
+		
+		font-size: .8em;
+		text-align: center;
+	}
 
 
 /*footer*/
@@ -173,3 +221,20 @@
 	border: none;
 	padding: .5em 1em;
 }
+
+
+
+
+	
+
+	/* Fixed header and footer.
+	* --------------------------------------- */
+	#header{
+		position:fixed; /*para que el menu se que de  fijo*/
+		height: 4em;
+		width: 100%;
+		background: #333;
+		z-index:9;
+	}
+
+	

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Looping - fullPage.js</title>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width:device-width, maximun-scale=1"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../static/css/estilos.css">
+		<link rel="stylesheet" href="../static/css/normalize.css">
+
+
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#2c3e50', '#D8D8D8', '#7BAABE','#00ACC1'],
+				anchors: ['inicio', 'recomendaciones', 'envios','pagos'],
+				menu: '#menu',
+				loopTop: true,
+				loopBottom: true
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+
+<ul id="menu" class="Menu">
+
+	<li data-menuanchor="inicio" class="active"><a href="#inicio">INICIO</a></li>
+	<li data-menuanchor="recomendaciones" ><a href="#recomendaciones">RECOMENDACIONES</a></li>
+	<li data-menuanchor="envios" ><a href="#envios">ENVIO</a></li>
+	<li data-menuanchor="pagos" ><a href="#pagos">PAGO</a></li>
+	
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+			<header  class="Header">
+			
+				<figure class="Header-imageContainer">
+					<img src="../static/images/avatar.jpeg"  class="Header-image">
+					<figcaption  >
+						<a class="Header-link"href="http://twitter" target="_blank">Francis Gonzalez</a>
+					</figcaption>
+				</figure>
+				
+			
+				<section  class="HeaderSocial">
+					
+				
+					<section class="HeaderSocial-redes">
+					<a class="HeaderSocial-link" href="http://Twitter/FrGZ" target="_blank">
+						<img src="../static/images/social/fb.png" class="HeaderSocial-image">
+					</a>
+					<a  class="HeaderSocial-link" href="http://Facebook/FrGZ" target="_blank">
+						<img src="../static/images/social/twitter.png" class="HeaderSocial-image">
+					</a>
+					<a  class="HeaderSocial-link" href="http://GitHub/FrGZ" target="_blank">
+						<img src="../static/images/social/instagram.png" class="HeaderSocial-image">
+					</a>
+					</section>
+
+
+					</section>
+
+				</section>
+			
+			</header>
+	</div>
+	<div class="section" id="section1">
+				
+			  <div class="slide ">
+			
+	    	<section >
+					<h2 class="Recomendaciones-title">Recomendaciones</h2>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+				</section>	
+	    </div>
+
+	    <div class="slide active">
+	    	
+	    	<section >
+					<h2 class="Recomendaciones-title">Recomendaciones</h2>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+			</section>	
+	    </div>
+	    <div class="slide">
+	    	<section >
+					<h2 class="Recomendaciones-title">Recomendaciones</h2>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+				</section>	
+	    </div>
+	    <div class="slide">
+	    	<section class="Recomendaciones">
+					<h2 class="Recomendaciones-title">Recomendaciones</h2>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+					<article class="Recomendaciones-item">
+						<figure class="Recomendaciones-imageContainer">
+							<img class="Recomendaciones-image" src="../static/images/proyecto.jpg" alt="Descripcion dela imagen">
+							<figcaption class="Recomendaciones-description">Descripcion</figcaption>
+						</figure>
+					</article>
+				</section>	
+	    </div>
+		
+	</div>
+	<div class="section" id="section2">
+			<section>
+				<article class="Envios-item">				
+					<figure class="Header-imageContainer">
+						<img src="../static/images/envios/redpack.jpg" alt="Imagen personal" class="Header-image">
+						<figcaption  class="Header-imageDescription">
+							<p class="Envios-titulo">Redpack</p>
+							<span class="Envios-descripcion"> Costo de $100 a $150 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum soluta pariatur sit impedit tenetur illum minima, autem earum excepturi, sequi, molestiae consequuntur natus quas esse laboriosam deserunt reprehenderit porro sunt.</span>
+						</figcaption>
+					</figure>
+				</article>
+				<article class="Envios-item">
+					<figure class="Header-imageContainer">
+						<img src="../static/images/envios/estafeta.png" alt="Imagen personal" class="Header-image">
+						<figcaption  class="Header-imageDescription">
+							<p class="Envios-titulo">Estafeta</p> 
+							<span class="Envios-descripcion">Costo de $100 a $150 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolor repellat enim laboriosam ipsam delectus, tenetur ipsum ex quisquam quam vitae, facilis nesciunt magni suscipit amet adipisci molestias dolore sed.</span>
+						</figcaption>
+					</figure>
+				</article>
+				<article class="Envios-item">
+					<figure class="Header-imageContainer">
+						<img src="../static/images/envios/correos.png" alt="Imagen personal" class="Header-image">
+						<figcaption  class="Header-imageDescription">
+							<p class="Envios-titulo">Correos de Mexico</p> 
+							<span class="Envios-descripcion"> Costo de $100 a $150 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo culpa perferendis delectus provident nostrum cum cupiditate, aliquam beatae velit error quibusdam, qui adipisci assumenda vitae sed explicabo, doloribus suscipit obcaecati.</span>
+						</figcaption>
+					</figure>
+				</article>	
+				<article class="Envios-item">
+					<figure class="Header-imageContainer">
+						<img src="../static/images/envios/dhl.png" alt="Imagen personal" class="Header-image">
+						<figcaption  class="Header-imageDescription">
+							<p class="Envios-titulo">Mercado Envios (DHL)</p>
+							<span class="Envios-descripcion"> Costo de $100 a $150 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sunt impedit hic, aspernatur quidem vitae, blanditiis accusamus beatae dicta at reiciendis. Vero repellat omnis ea unde similique quas est, in!</span>
+						</figcaption>
+					</figure>
+				</article>				
+			</section>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>Scroll Down</h1>
+			<p>And it will loop to the first section</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

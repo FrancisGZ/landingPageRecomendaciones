@@ -1,44 +1,39 @@
 /*utilidades*/
 .u-title{
-	color: #00DBFF;
-	font-weight: normal; /*es lo mismo que 400*/
+	color: #ffffff;
+	font-weight: normal bold; /*es lo mismo que 400*/
 	padding-bottom: .5em;
 	text-align: center;
 
 }
-/*Menu*/
 
-.MainMenu{
+
+
+
 	
-	position: fixed; 
+
+
+/*Cear media query por si se empalma en definicion mas chica*/
+.Menu {
 	left: 0; /*para poner todo el ancho al menu*/
 	right: 0;
 	top: 0;/*posisionar el menu hasta arriba*/
 	text-align: center;
-}
+	font-size: 1em;
+	background-color: #2c3e50;
 
-.MainMenu-list{
-	margin: 0;
-	padding: 0;
-}
-
-.MainMenu-item{
-	display: inline-block;
-}
-
-.MainMenu-link{
-	color: #00DBFF;
-	text-decoration: none;
-	line-height: 3.75em; /*tiene recibir el mismo valor que el alto del padre y caundo es solo una linea*/
-	margin-right: 1.5em;
 
 }
+
+
+
 
 /*Header*/
 
 .Header{
-	margin-top: 3.75em;
-	background-image: url('../images/portada.jpg');
+	background-image: url('../images/v.jpg');
+	position:  ;
+	margin: 0px;
 	background-repeat: no-repeat;
 	background-position: center; /*se centra con respecto al alto y ancho*/
 	background-size: cover ;
@@ -48,64 +43,61 @@
 
 
 .Header-imageContainer{
-	margin: 0;
+	margin-top: 2em;
 
 }
 
-.Header-image{
-	border:5px solid black ;/*tamaño-tipo-color*/
-	border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
-	width: 100px; height: 100px;
-}
 
 
-.Header-image2{
-	border:5px solid black ;/*tamaño-tipo-color*/
-	border-radius: 80% ;/*los valores del border que recibe son los mismo que loas magenes*/
-	width: 100px; height: 100px;
-}
 
-.Header-name,
-.Header-link{
-	color: white;
-}
+	.HeaderSocial-redes{
+		margin-top: 4em;
+	}
 
-
-.Header-link{
-	font-size: 2.2em;
-	font-weight: bold; /*letra negrita o 700*/
-	text-decoration: none;
-}
+	.Header-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+	}
 
 
-.Header-name{
-	font-size: 1.5em;
-	font-weight: 300;
-	margin: 0;/*quitar margen*/
-}
+	.HeaderSocial-image{
+		border:5px solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		
+	}
 
 
-/*Profile*/
+	.Header-link{
+		color: white;
+	}
 
-.Profile{
+
+	.Header-link{
+		font-size: 1.5em;
+		font-weight: bold; /*letra negrita o 700*/
+		text-decoration: none;
+	}
+
+
+
+/*Profile
+
+
+.HeaderSocial{
 	text-align: center;
 }
+*/
 
-
-.Profile-link{
-	background: orange;
+.HeaderSocial-link{
+	/*background: orange;
 	color: white;
 	text-decoration: none;
-	padding: .5em 1em;
+	padding: 1.5em .5em;
 	border-radius: 2em;
-	margin-right: .5em;
+	margin-right: .5em;*/
 	
-
-}
-
-
-.Profile-link2{
-	background: orange;
+	background: #2c3e50;
 	color: white;
 	text-decoration: none;
 	padding: .5em 1em;
@@ -116,32 +108,48 @@
 }
 
 
-.Profile-redes{
-	margin-top: 1em;
-}
 
-/*work*/
-.Work{
+/*Recomendaciones
+.Recomendaciones{
 	margin-top: 2em;
 	text-align: center;
 }
+*/
 
-.Work-item{
-	display: inline-block;
+
+.Recomendaciones-title{
+
+	color: #2c3e50;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.Recomendaciones-item{
+	display: inline-flex;
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
-
+	background-color: #2c3e50;
+	border-radius: 20%;
 }
 
 
-.Work-imageContainer{
+.Recomendaciones-imageContainer{
 	margin: 0;
+	border: 5px solid #2c3e50;
+	border-radius: 17%;
+
 }
 
-.Work-description{
+.Recomendaciones-image{
+	border-radius: 17%
+}
+
+.Recomendaciones-description{
 	font-size: 1.5em;
 	color: #515151;
 	font-style: italic;
+	color: #ffffff;
+	font-weight: normal bold; /*es lo mismo que 400*/
 }
 
 
@@ -162,12 +170,7 @@
 		font-weight: bold;
 	}
 
-	.Envios-descripcion{
-		
-		font-size: .8em;
-		text-align: center;
-	}
-
+	
 
 /*footer*/
 
@@ -226,15 +229,5 @@
 
 
 	
-
-	/* Fixed header and footer.
-	* --------------------------------------- */
-	#header{
-		position:fixed; /*para que el menu se que de  fijo*/
-		height: 4em;
-		width: 100%;
-		background: #333;
-		z-index:9;
-	}
 
 	

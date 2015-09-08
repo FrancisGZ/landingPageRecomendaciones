@@ -118,58 +118,96 @@
 
 
 .Recomendaciones-title{
-
+	margin-top: 1em;
 	color: #2c3e50;
 	font-weight: bold;
-	margin-bottom: 50px;
+	
+	
 }
 
-.Recomendaciones-item{
+	
+	.Recomendaciones-title:after{
+		content: "RECOMENDACIONES";
+
+	}
+
+
+
+
+.Recomendaciones-imageContainer{
+	padding: 0;
+	margin-top: 1em;
 	display: inline-flex;
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
 	background-color: #2c3e50;
-	border-radius: 20%;
-}
-
-
-.Recomendaciones-imageContainer{
-	margin: 0;
 	border: 5px solid #2c3e50;
-	border-radius: 17%;
+	border-radius: 8%;
 
 }
 
 .Recomendaciones-image{
-	border-radius: 17%
+	
+	border-radius: 8%;
+	width: 400px;
+	height: 450px;
+
+
 }
 
-.Recomendaciones-description{
-	font-size: 1.5em;
-	color: #515151;
-	font-style: italic;
-	color: #ffffff;
-	font-weight: normal bold; /*es lo mismo que 400*/
-}
 
 
 
 /*Seccion envios*/
 
+
+
+.Envios-description{
+	
+	margin: 0 auto;
+	margin-top: 1em;
+	font-size: 1em;
+	width: 600px; 
+	height: auto;
+	text-align: center;
+
+}
+
+
 .Envios-item {
 	display: inline-flex;
-	margin-right: 1.8em;
+	margin-right: 1.8em;	
 	margin-bottom: 1.8em;
 	width: 250px;
 
 
 }
 
+	.Envios-imageContainer{
+			
+		margin-top: 2em;
+
+	}
+	
+
+	.Envios-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+	}
+
+
+
+
 	.Envios-titulo{
 		font-size: 1em;
 		font-weight: bold;
 	}
 
+
+
+
+/**/
 	
 
 /*footer*/

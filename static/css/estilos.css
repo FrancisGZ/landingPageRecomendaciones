@@ -1,0 +1,283 @@
+/*utilidades*/
+.u-title{
+	color: #ffffff;
+	font-weight: normal bold; /*es lo mismo que 400*/
+	padding-bottom: .5em;
+	text-align: center;
+
+}
+
+
+
+
+	
+
+
+/*Cear media query por si se empalma en definicion mas chica*/
+.Menu {
+	left: 0; /*para poner todo el ancho al menu*/
+	right: 0;
+	top: 0;/*posisionar el menu hasta arriba*/
+	text-align: center;
+	font-size: 1em;
+	background-color: #2c3e50;
+
+
+}
+
+
+
+
+/*Header*/
+
+.Header{
+	background-image: url('../images/v.jpg');
+	position:  ;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-position: center; /*se centra con respecto al alto y ancho*/
+	background-size: cover ;
+	text-align: center;
+	padding:1.2em 0 ;/*margen interiror*/
+}
+
+
+.Header-imageContainer{
+	margin-top: 2em;
+
+}
+
+
+
+
+	.HeaderSocial-redes{
+		margin-top: 4em;
+	}
+
+	.Header-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+	}
+
+
+	.HeaderSocial-image{
+		border:5px solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		
+	}
+
+
+	.Header-link{
+		color: white;
+	}
+
+
+	.Header-link{
+		font-size: 1.5em;
+		font-weight: bold; /*letra negrita o 700*/
+		text-decoration: none;
+	}
+
+
+
+/*Profile
+
+
+.HeaderSocial{
+	text-align: center;
+}
+*/
+
+.HeaderSocial-link{
+	/*background: orange;
+	color: white;
+	text-decoration: none;
+	padding: 1.5em .5em;
+	border-radius: 2em;
+	margin-right: .5em;*/
+	
+	background: #2c3e50;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 50%;
+	margin-right: .5em;
+	
+
+}
+
+
+
+/*Recomendaciones
+.Recomendaciones{
+	margin-top: 2em;
+	text-align: center;
+}
+*/
+
+
+.Recomendaciones-title{
+	margin-top: 1em;
+	color: #2c3e50;
+	font-weight: bold;
+	
+	
+}
+
+	
+	.Recomendaciones-title:after{
+		content: "RECOMENDACIONES";
+
+	}
+
+
+
+
+.Recomendaciones-imageContainer{
+	padding: 0;
+	margin-top: 1em;
+	display: inline-flex;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+	background-color: #2c3e50;
+	border: 5px solid #2c3e50;
+	border-radius: 8%;
+
+}
+
+.Recomendaciones-image{
+	
+	border-radius: 8%;
+	width: 400px;
+	height: 450px;
+
+
+}
+
+
+
+
+/*Seccion envios*/
+
+
+
+.Envios-description{
+	
+	margin: 0 auto; /*Para centrar div, articles, etc*/
+	margin-top: 1em;
+	font-size: 1em;
+	width: 600px; 
+	height: auto;
+	text-align: center;
+
+}
+
+
+.Envios-item {
+	display: inline-flex;
+	margin-right: 1.8em;	
+	margin-bottom: 1.8em;
+	width: 250px;
+
+
+}
+
+	.Envios-imageContainer{
+			
+		margin-top: 5em;
+
+	}
+	
+
+	.Envios-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 50% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+	}
+
+
+
+
+	.Envios-titulo{
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+
+
+
+/*Pagos*/
+	
+
+
+.Pagos-description{
+	
+	margin: 0 auto; /*Para centrar div, articles, etc*/
+	margin-top: 1em;
+	font-size: 1em;
+	width: 600px; 
+	height: auto;
+	text-align: center;
+
+}
+
+
+.Pagos-item {
+	display: inline-flex;
+	margin-right: 1.8em;	
+	margin-bottom: 1.8em;
+	width: 250px;
+
+
+}
+
+	.Pagos-imageContainer{
+			
+		margin-top: 2em;
+
+	}
+	
+
+	.Pagos-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 0 30% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+		background-color: white;
+	}
+
+
+
+
+	.Pagos-titulo{
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+
+
+
+
+/*footer*/
+
+.Footer{
+	/*background-image: url('../images/footer.jpg');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 500px;
+	padding: 2em 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+	
+
+	

@@ -164,7 +164,7 @@
 
 .Envios-description{
 	
-	margin: 0 auto;
+	margin: 0 auto; /*Para centrar div, articles, etc*/
 	margin-top: 1em;
 	font-size: 1em;
 	width: 600px; 
@@ -185,7 +185,7 @@
 
 	.Envios-imageContainer{
 			
-		margin-top: 2em;
+		margin-top: 5em;
 
 	}
 	
@@ -207,8 +207,56 @@
 
 
 
-/**/
+/*Pagos*/
 	
+
+
+.Pagos-description{
+	
+	margin: 0 auto; /*Para centrar div, articles, etc*/
+	margin-top: 1em;
+	font-size: 1em;
+	width: 600px; 
+	height: auto;
+	text-align: center;
+
+}
+
+
+.Pagos-item {
+	display: inline-flex;
+	margin-right: 1.8em;	
+	margin-bottom: 1.8em;
+	width: 250px;
+
+
+}
+
+	.Pagos-imageContainer{
+			
+		margin-top: 2em;
+
+	}
+	
+
+	.Pagos-image{
+		border:5px  solid #2c3e50 ;/*tamaño-tipo-color*/
+		border-radius: 0 30% ;/*los valores del border que recibe son los mismo que loas magenes*/
+		width: 100px; height: 100px;
+		background-color: white;
+	}
+
+
+
+
+	.Pagos-titulo{
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+
+
+
 
 /*footer*/
 
@@ -223,45 +271,9 @@
 }
 
 
-.Footer-form{
-	text-align: center;
-	display: inline-block;
-}
-
-.Footer-left{
-	display: inline-block;
-	width: 32em;
-	text-align: center;
-	vertical-align: top;
-}
-
-.Footer-title{
-	color:white;
-}
 
 
-.Footer-formInput,
-.Footer-textarea{
-	background: white;
-	border: none;
-	display: block;
-	border-radius: 2em;
-	padding: .5em;
-	margin: 0 auto 1em; /*para que se centre con text align del padre*/
-}
 
-
-.Form-textarea{
-	resize: none;
-}
-
-.Footer-button{
-	background: orange;
-	color: white;
-	border-radius: 1em;
-	border: none;
-	padding: .5em 1em;
-}
 
 
 

@@ -398,7 +398,7 @@
    content: "\f141"; 
    font-size: 3em;
    color: #2c3e50;
-   margin-top: 2em; 
+   margin-top: 1em; 
 }
 .fi-dollar:before { content: "\f142"; }
 .fi-download:before { content: "\f143"; }
